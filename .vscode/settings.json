@@ -1,0 +1,25 @@
+{
+  "css.validate": false,
+  "editor.formatOnSave": true,
+  "stylelint.configBasedir": "assets",
+  "files.associations": {
+    "*.css": "postcss"
+  },
+  "eslint.workingDirectories": ["./assets"],
+  "eslint.nodePath": "assets",
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "stylelint.vscode-stylelint"
+  },
+  "[postcss]": {
+    "editor.defaultFormatter": "stylelint.vscode-stylelint"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.stylelint": true
+  }
+}
