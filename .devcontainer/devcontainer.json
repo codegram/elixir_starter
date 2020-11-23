@@ -15,15 +15,10 @@
 
   // Add the IDs of extensions you want installed when the container is created.
   "extensions": [
-	"JakeBecker.elixir-ls",
-	"esbenp.prettier-vscode",
-	"dbaeumer.vscode-eslint",
-	"bradlc.vscode-tailwindcss",
-	"adrianwilczynski.alpine-js-intellisense",
-	"stylelint.vscode-stylelint",
-	"ms-azuretools.vscode-docker",
-	"pantajoe.vscode-elixir-credo"
-],
+    "JakeBecker.elixir-ls",
+    "ms-azuretools.vscode-docker",
+    "pantajoe.vscode-elixir-credo"
+  ],
   "settings": {
     "terminal.integrated.shell.linux": "/usr/bin/zsh"
   },
